@@ -13,7 +13,6 @@ namespace restaurants
         public Form1()
         {
             InitializeComponent();
-            this.Load += new EventHandler(Form1_Load);
 
             textBoxLogin.Text = "Введите логин";
             textBoxLogin.ForeColor = Color.Gray;
@@ -27,12 +26,6 @@ namespace restaurants
             textBoxLogin.Leave += textBoxLogin_Leave;
             textBoxPassword.Enter += textBoxPassword_Enter;
             textBoxPassword.Leave += textBoxPassword_Leave;
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            // Проверка соединения с базой данных при запуске формы
-            DatabaseHelper.CheckDatabaseConnection();
         }
 
         // Остальной код для обработки текстовых полей
@@ -79,26 +72,16 @@ namespace restaurants
             string login = textBoxLogin.Text;
             string password = textBoxPassword.Text;
 
-            bool tableExists = DatabaseHelper.CheckIfUsersTableExists();
-            if (tableExists)
+           if (UserAuthenticator.Authenticate(login, password))
             {
-                // Если таблица существует, продолжайте работу
-                // Ваш код для проверки логина и пароля
-                if (UserAuthenticator.Authenticate(login, password))
-                {
-                    MessageBox.Show("Успешный вход!");
-                    // Здесь можно выполнить действия после успешного входа (например, открыть другую форму)
-                }
-                else
-                {
-                    MessageBox.Show("Неверный логин или пароль!");
-                }
+                MessageBox.Show("Успешный вход!");
+                // Здесь можно выполнить действия после успешного входа (например, открыть другую форму)
             }
             else
             {
-                // Если таблица не существует, уведомите пользователя
-                MessageBox.Show("Таблица Users не найдена в базе данных.");
+                MessageBox.Show("Неверный логин или пароль!");
             }
+
         }
     }
 }

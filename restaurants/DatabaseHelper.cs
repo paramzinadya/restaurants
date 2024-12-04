@@ -13,7 +13,7 @@ namespace restaurants
             string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string databaseRelativePath = "restaurants_database.db"; // Путь к базе данных
             string databasePath = System.IO.Path.Combine(projectDirectory, databaseRelativePath);
-            Console.WriteLine("Database Path: " + databasePath); // Выводим путь к базе данных
+            //Console.WriteLine("Database Path: " + databasePath); // Выводим путь к базе данных
             return databasePath;
         }
 
@@ -26,60 +26,5 @@ namespace restaurants
             string connectionString = $"Data Source={GetDatabasePath()};Version=3;";
             return new SQLiteConnection(connectionString);
         }
-
-
-
-
-        // Метод для проверки соединения с базой данных
-        public static void CheckDatabaseConnection()
-        {
-            using (var connection = GetConnection())
-            {
-                try
-                {
-                    connection.Open(); // Попытка открыть соединение с базой данных
-                    MessageBox.Show("Подключение к базе данных успешно!");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}");
-                    Debug.WriteLine($"Ошибка подключения: {ex.Message}"); // Вывод ошибки в окно вывода отладки
-                }
-            }
-        }
-
-        public static bool CheckIfUsersTableExists()
-        {
-            try
-            {
-                using (var connection = new SQLiteConnection(GetConnection()))
-                {
-                    connection.Open();
-
-                    // Запрос для проверки наличия таблицы Users
-                    string query = "SELECT name FROM sqlite_master WHERE type='table' AND name='Users';";
-                    using (var command = new SQLiteCommand(query, connection))
-                    {
-                        var result = command.ExecuteScalar();
-                        if (result != null)
-                        {
-                            Console.WriteLine("Таблица Users существует.");
-                            return true; // Таблица существует
-                        }
-                        else
-                        {
-                            Console.WriteLine("Таблица Users не найдена.");
-                            return false; // Таблица не существует
-                        }
-                    }
-                }
-            }
-            catch (SQLiteException ex)
-            {
-                Console.WriteLine($"Ошибка при подключении к базе данных: {ex.Message}");
-                return false; // Ошибка при подключении
-            }
-        }
-
     }
 }
