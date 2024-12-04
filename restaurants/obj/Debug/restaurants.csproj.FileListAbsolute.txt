@@ -1,0 +1,11 @@
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\restaurants.exe.config
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\restaurants.exe
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\restaurants.pdb
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.SuggestedBindingRedirects.cache
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.Form1.resources
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.Properties.Resources.resources
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.GenerateResource.cache
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.exe
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.pdb
