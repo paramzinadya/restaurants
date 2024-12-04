@@ -9,3 +9,13 @@ C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj
 C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.CoreCompileInputs.cache
 C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.exe
 C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.pdb
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\restaurants_database
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\EntityFramework.dll
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\System.Data.SQLite.dll
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\EntityFramework.xml
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\System.Data.SQLite.xml
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.CopyComplete
