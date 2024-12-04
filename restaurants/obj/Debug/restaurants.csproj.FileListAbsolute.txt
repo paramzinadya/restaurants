@@ -19,3 +19,4 @@ C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\EntityFramework.xm
 C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\System.Data.SQLite.xml
 C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.CopyComplete
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.MainWindow.resources

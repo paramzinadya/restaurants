@@ -74,7 +74,10 @@ namespace restaurants
 
            if (UserAuthenticator.Authenticate(login, password))
             {
-                MessageBox.Show("Успешный вход!");
+                //MessageBox.Show("Успешный вход!");
+                MainWindow main= new MainWindow();
+                main.Show();
+                this.Hide();
                 // Здесь можно выполнить действия после успешного входа (например, открыть другую форму)
             }
             else
