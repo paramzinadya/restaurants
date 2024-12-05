@@ -34,6 +34,33 @@ namespace restaurants
             }
         }
 
+        public static int GetUserId(string login, string password)
+        {
+            string hashedPassword = HashPassword(password);
+
+            try
+            {
+                using (var connection = GetConnection())
+                {
+                    connection.Open();
+
+                    string query = "SELECT Id FROM Users WHERE Login = @login AND Password = @password";
+                    using (var command = new SQLiteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@login", login);
+                        command.Parameters.AddWithValue("@password", hashedPassword);
+
+                        var result = command.ExecuteScalar();
+                        return result != DBNull.Value ? Convert.ToInt32(result) : -1;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                return -1;
+            }
+        }
+
         // Метод для проверки логина и пароля
         public static bool Authenticate(string login, string password)
         {

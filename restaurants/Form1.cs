@@ -67,24 +67,24 @@ namespace restaurants
             }
         }
 
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             string login = textBoxLogin.Text;
             string password = textBoxPassword.Text;
 
-           if (UserAuthenticator.Authenticate(login, password))
+            int userId = UserAuthenticator.GetUserId(login, password);
+            if (userId != -1)
             {
-                //MessageBox.Show("Успешный вход!");
-                MainWindow main= new MainWindow();
+                MainWindow main = new MainWindow(userId);
                 main.Show();
                 this.Hide();
-                // Здесь можно выполнить действия после успешного входа (например, открыть другую форму)
             }
             else
             {
                 MessageBox.Show("Неверный логин или пароль!");
             }
-
         }
     }
 }
