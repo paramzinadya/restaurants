@@ -45,12 +45,12 @@ namespace restaurants
 
                     // Запрос для получения всех пунктов меню
                     string queryMenu = @"
-                        SELECT Id, ParentId, Name, DLL, Key, [Order]
-                        FROM MenuItems
-                        ORDER BY 
-                            CASE WHEN ParentId = 0 THEN [Order] ELSE 9999 END, -- Основные модули по Order
-                            ParentId, 
-                            Id"; // Подмодули по их порядку добавления
+                SELECT Id, ParentId, Name, DLL, Key, [Order]
+                FROM MenuItems
+                ORDER BY 
+                    CASE WHEN ParentId = 0 THEN [Order] ELSE 9999 END, -- Основные модули по Order
+                    ParentId, 
+                    Id"; // Подмодули по их порядку добавления
 
                     var commandMenu = new SQLiteCommand(queryMenu, connection);
                     var adapterMenu = new SQLiteDataAdapter(commandMenu);
@@ -58,9 +58,9 @@ namespace restaurants
 
                     // Запрос для получения прав доступа пользователя
                     string queryAccess = @"
-                        SELECT MenuId, Read
-                        FROM AccessList
-                        WHERE UserId = @UserId";
+                SELECT MenuId, Read
+                FROM AccessList
+                WHERE UserId = @UserId";
                     var commandAccess = new SQLiteCommand(queryAccess, connection);
                     commandAccess.Parameters.AddWithValue("@UserId", _userId);
                     var adapterAccess = new SQLiteDataAdapter(commandAccess);
@@ -90,6 +90,7 @@ namespace restaurants
                 MessageBox.Show($"Ошибка загрузки меню: {ex.Message}", "Ошибка");
             }
         }
+
 
         // Строка подключения к базе данных
         private string GetConnectionString()
@@ -143,7 +144,16 @@ namespace restaurants
                     continue; // Если прав нет, пропускаем этот пункт меню
 
                 // Создаём основной пункт меню
-                var mainMenu = new ToolStripMenuItem(mainMenuItem.Name);
+                var mainMenu = new ToolStripMenuItem(mainMenuItem.Name)
+                {
+                    Tag = mainMenuItem // Сохраняем данные о пункте меню в теге
+                };
+
+                // Подключаем обработчик клика
+                mainMenu.Click += (sender, e) =>
+                {
+                    HandleMenuItemClick(mainMenuItem);
+                };
 
                 // Добавляем подменю (где ParentId == mainMenuItem.Id)
                 BuildSubMenu(mainMenu.DropDownItems, mainMenuItem.Id, menuItems, accessList);
@@ -175,6 +185,12 @@ namespace restaurants
                     Tag = subMenuItem // Сохраняем данные о пункте меню в теге
                 };
 
+                // Подключаем обработчик клика
+                subMenu.Click += (sender, e) =>
+                {
+                    HandleMenuItemClick(subMenuItem);
+                };
+
                 // Если это подменю также имеет свои подменю, рекурсивно добавляем их
                 BuildSubMenu(subMenu.DropDownItems, subMenuItem.Id, menuItems, accessList);
 
@@ -190,29 +206,64 @@ namespace restaurants
             {
                 try
                 {
-                    // Загружаем DLL и отображаем форму
+                    Console.WriteLine($"Попытка загрузить DLL: {menuItem.DLL}");
+
+                    // Загружаем сборку из файла DLL
                     var assembly = Assembly.LoadFrom(menuItem.DLL);
-                    var formType = assembly.GetType(menuItem.Key);
-                    if (formType != null)
+                    Console.WriteLine($"DLL {menuItem.DLL} успешно загружена.");
+
+                    // Ищем тип с нужной функцией
+                    var type = assembly.GetTypes()
+                                       .FirstOrDefault(t => t.GetMethod(menuItem.Key) != null);
+
+                    if (type == null)
                     {
-                        var form = (Form)Activator.CreateInstance(formType);
-                        form.ShowDialog();
+                        Console.WriteLine($"Тип с методом {menuItem.Key} не найден в DLL.");
+                        MessageBox.Show($"Тип с методом {menuItem.Key} не найден в DLL {menuItem.DLL}.", "Ошибка");
+                        return;
+                    }
+
+                    // Получаем метод по имени (в поле Key хранится имя метода)
+                    var methodInfo = type.GetMethod(menuItem.Key);
+
+                    if (methodInfo != null)
+                    {
+                        Console.WriteLine($"Метод {menuItem.Key} найден, вызываем.");
+
+                        // Проверяем, является ли метод статическим
+                        if (methodInfo.IsStatic)
+                        {
+                            // Вызываем статический метод
+                            methodInfo.Invoke(null, null);
+                            Console.WriteLine("Метод успешно вызван.");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Метод {menuItem.Key} не является статическим, не могу вызвать.");
+                            MessageBox.Show($"Метод {menuItem.Key} не является статическим в DLL {menuItem.DLL}.", "Ошибка");
+                        }
                     }
                     else
                     {
-                        MessageBox.Show($"Не удалось найти форму с ключом {menuItem.Key} в DLL {menuItem.DLL}.", "Ошибка");
+                        Console.WriteLine($"Метод {menuItem.Key} не найден.");
+                        MessageBox.Show($"Метод {menuItem.Key} не найден в DLL {menuItem.DLL}.", "Ошибка");
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка при загрузке DLL: {ex.Message}", "Ошибка");
+                    Console.WriteLine($"Ошибка загрузки DLL: {ex.Message}");
+                    MessageBox.Show($"Ошибка загрузки DLL: {ex.Message}", "Ошибка");
                 }
             }
             else
             {
-                MessageBox.Show($"Вы выбрали пункт меню '{menuItem.Name}', но действие не задано.", "Информация");
+                MessageBox.Show($"Для пункта меню '{menuItem.Name}' действие не задано.", "Информация");
             }
         }
+
+
+
+
 
         // Вспомогательный класс для хранения данных о пункте меню
         private class MenuItem
