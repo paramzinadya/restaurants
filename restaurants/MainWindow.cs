@@ -17,8 +17,8 @@ namespace restaurants
         {
             InitializeComponent();
             InitializeMenuStrip();
-            LoadMenu();
             _userId = userId;
+            LoadMenu();
         }
 
         // Метод для инициализации MenuStrip
@@ -37,21 +37,42 @@ namespace restaurants
             try
             {
                 var dataTable = new DataTable();
+                var accessList = new List<AccessRights>();
+
                 using (var connection = new SQLiteConnection(GetConnectionString()))
                 {
                     connection.Open();
 
                     // Запрос для получения всех пунктов меню
-                    string query = @"
+                    string queryMenu = @"
                         SELECT Id, ParentId, Name, DLL, Key, [Order]
                         FROM MenuItems
                         ORDER BY 
                             CASE WHEN ParentId = 0 THEN [Order] ELSE 9999 END, -- Основные модули по Order
                             ParentId, 
                             Id"; // Подмодули по их порядку добавления
-                    var command = new SQLiteCommand(query, connection);
-                    var adapter = new SQLiteDataAdapter(command);
-                    adapter.Fill(dataTable);
+
+                    var commandMenu = new SQLiteCommand(queryMenu, connection);
+                    var adapterMenu = new SQLiteDataAdapter(commandMenu);
+                    adapterMenu.Fill(dataTable);
+
+                    // Запрос для получения прав доступа пользователя
+                    string queryAccess = @"
+                        SELECT MenuId, Read
+                        FROM AccessList
+                        WHERE UserId = @UserId";
+                    var commandAccess = new SQLiteCommand(queryAccess, connection);
+                    commandAccess.Parameters.AddWithValue("@UserId", _userId);
+                    var adapterAccess = new SQLiteDataAdapter(commandAccess);
+                    var accessDataTable = new DataTable();
+                    adapterAccess.Fill(accessDataTable);
+
+                    // Преобразуем данные из AccessList в список прав пользователя
+                    accessList = accessDataTable.AsEnumerable().Select(row => new AccessRights
+                    {
+                        MenuId = Convert.ToInt32(row["MenuId"]),
+                        Read = Convert.ToInt32(row["Read"])
+                    }).ToList();
                 }
 
                 // Проверка: загружены ли данные
@@ -61,8 +82,8 @@ namespace restaurants
                     return;
                 }
 
-                // Построение меню
-                BuildMenu(menuStrip, dataTable);
+                // Построение меню с учетом прав пользователя
+                BuildMenu(menuStrip, dataTable, accessList);
             }
             catch (Exception ex)
             {
@@ -79,7 +100,7 @@ namespace restaurants
         }
 
         // Метод для построения меню
-        private void BuildMenu(MenuStrip menuStrip, DataTable dataTable)
+        private void BuildMenu(MenuStrip menuStrip, DataTable dataTable, List<AccessRights> accessList)
         {
             // Проверяем, содержит ли таблица необходимые столбцы
             if (!dataTable.Columns.Contains("Id") ||
@@ -116,11 +137,16 @@ namespace restaurants
             // Создаём основное меню
             foreach (var mainMenuItem in mainMenuItems)
             {
+                // Проверяем, есть ли у пользователя права на чтение этого пункта меню
+                var access = accessList.FirstOrDefault(a => a.MenuId == mainMenuItem.Id);
+                if (access == null || access.Read == 0)
+                    continue; // Если прав нет, пропускаем этот пункт меню
+
                 // Создаём основной пункт меню
                 var mainMenu = new ToolStripMenuItem(mainMenuItem.Name);
 
                 // Добавляем подменю (где ParentId == mainMenuItem.Id)
-                BuildSubMenu(mainMenu.DropDownItems, mainMenuItem.Id, menuItems);
+                BuildSubMenu(mainMenu.DropDownItems, mainMenuItem.Id, menuItems, accessList);
 
                 // Добавляем основной пункт в MenuStrip
                 menuStrip.Items.Add(mainMenu);
@@ -128,7 +154,7 @@ namespace restaurants
         }
 
         // Метод для добавления подменю
-        private void BuildSubMenu(ToolStripItemCollection parentCollection, int parentId, List<MenuItem> menuItems)
+        private void BuildSubMenu(ToolStripItemCollection parentCollection, int parentId, List<MenuItem> menuItems, List<AccessRights> accessList)
         {
             // Находим подмодули с ParentId, равным текущему ID
             var subMenuItems = menuItems
@@ -138,6 +164,11 @@ namespace restaurants
 
             foreach (var subMenuItem in subMenuItems)
             {
+                // Проверяем, есть ли у пользователя права на чтение этого подменю
+                var access = accessList.FirstOrDefault(a => a.MenuId == subMenuItem.Id);
+                if (access == null || access.Read == 0)
+                    continue; // Если прав нет, пропускаем этот подменю
+
                 // Создаём подменю
                 var subMenu = new ToolStripMenuItem(subMenuItem.Name)
                 {
@@ -192,6 +223,13 @@ namespace restaurants
             public string DLL { get; set; }
             public string Key { get; set; }
             public int Order { get; set; }
+        }
+
+        // Вспомогательный класс для хранения прав доступа
+        private class AccessRights
+        {
+            public int MenuId { get; set; }
+            public int Read { get; set; }
         }
     }
 }
