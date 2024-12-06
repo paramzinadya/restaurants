@@ -167,7 +167,7 @@ namespace restaurants
                 // Проверяем, есть ли у пользователя права на чтение этого подменю
                 var access = accessList.FirstOrDefault(a => a.MenuId == subMenuItem.Id);
                 if (access == null || access.Read == 0)
-                    continue; // Если прав нет, пропускаем этот подменю
+                    continue; // Если прав нет, пропускаем это подменю
 
                 // Создаём подменю
                 var subMenu = new ToolStripMenuItem(subMenuItem.Name)
@@ -175,8 +175,8 @@ namespace restaurants
                     Tag = subMenuItem // Сохраняем данные о пункте меню в теге
                 };
 
-                // Добавляем обработчик события клика по подменю
-                subMenu.Click += (sender, e) => HandleMenuItemClick(subMenuItem);
+                // Если это подменю также имеет свои подменю, рекурсивно добавляем их
+                BuildSubMenu(subMenu.DropDownItems, subMenuItem.Id, menuItems, accessList);
 
                 // Добавляем подменю в выпадающий список
                 parentCollection.Add(subMenu);
