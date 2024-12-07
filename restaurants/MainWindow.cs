@@ -249,6 +249,16 @@ namespace restaurants
         // Обработчик кликов по пунктам меню
         private void HandleMenuItemClick(MenuItem menuItem)
         {
+            // Проверяем, является ли пункт меню контейнером (имеет ли подпункты)
+            var menuStripItems = menuStrip.Items.Cast<ToolStripMenuItem>();
+            var parentItem = menuStripItems.FirstOrDefault(item => item.Tag == menuItem);
+
+            if (parentItem != null && parentItem.DropDownItems.Count > 0)
+            {
+                // Если у пункта меню есть подпункты, ничего не делаем
+                return;
+            }
+
             if (!string.IsNullOrEmpty(menuItem.DLL))
             {
                 try
@@ -307,13 +317,10 @@ namespace restaurants
             }
             else
             {
+                // Только показываем сообщение, если у пункта меню нет дочерних элементов
                 MessageBox.Show($"Для пункта меню '{menuItem.Name}' действие не задано.", "Информация");
             }
         }
-
-
-
-
 
 
         // Вспомогательный класс для хранения данных о пункте меню
