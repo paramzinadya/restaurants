@@ -103,7 +103,6 @@ namespace restaurants
             }
         }
 
-
         // Строка подключения к базе данных
         private string GetConnectionString()
         {
@@ -211,41 +210,6 @@ namespace restaurants
             }
         }
 
-        private void AddTabPage(string tabTitle, Assembly assembly, MethodInfo methodInfo)
-        {
-            // Получаем TabControl
-            var tabControl = this.Controls.OfType<TabControl>().FirstOrDefault();
-            if (tabControl == null)
-                return;
-
-            // Создаем новую вкладку
-            TabPage tabPage = new TabPage(tabTitle);
-
-            // Создаем DataGridView для отображения данных
-            var dataGridView = new DataGridView
-            {
-                Dock = DockStyle.Fill
-            };
-
-            // Вызываем метод из DLL для получения данных (например, StreetControlPage.GetData)
-            var result = methodInfo.Invoke(null, null);  // Предположим, что метод возвращает DataTable
-
-            // Если метод возвращает DataTable, отображаем его в DataGridView
-            if (result is DataTable table)
-            {
-                dataGridView.DataSource = table;
-            }
-
-            // Добавляем DataGridView в вкладку
-            tabPage.Controls.Add(dataGridView);
-
-            // Добавляем вкладку в TabControl
-            tabControl.TabPages.Add(tabPage);
-            tabControl.SelectedTab = tabPage; // Активируем эту вкладку
-        }
-
-
-
         // Обработчик кликов по пунктам меню
         private void HandleMenuItemClick(MenuItem menuItem)
         {
@@ -302,9 +266,6 @@ namespace restaurants
                             Console.WriteLine($"Метод {menuItem.Key} не является статическим, не могу вызвать.");
                             MessageBox.Show($"Метод {menuItem.Key} не является статическим в DLL {menuItem.DLL}.", "Ошибка");
                         }
-
-                        // Теперь добавляем вкладку в TabControl с данными из DLL
-                        AddTabPage(menuItem.Name, assembly, methodInfo);
                     }
                     else
                     {
