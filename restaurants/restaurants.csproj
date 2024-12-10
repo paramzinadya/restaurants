@@ -54,6 +54,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\GroupMenu.dll</HintPath>
     </Reference>
+    <Reference Include="RestaurantsMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RestaurantsMenu.dll</HintPath>
+    </Reference>
     <Reference Include="StreetMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\StreetMenu.dll</HintPath>

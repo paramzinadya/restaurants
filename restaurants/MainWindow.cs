@@ -290,8 +290,11 @@ namespace restaurants
                         // Проверяем, является ли метод статическим
                         if (methodInfo.IsStatic)
                         {
-                            // Вызываем статический метод
-                            methodInfo.Invoke(null, null);
+                            // Передаем id пользователя в качестве аргумента методу
+                            var parameters = new object[] { _userId }; // передаем _userId как аргумент
+
+                            // Вызываем статический метод с параметром
+                            methodInfo.Invoke(null, parameters);
                             Console.WriteLine("Метод успешно вызван.");
                         }
                         else
@@ -321,6 +324,7 @@ namespace restaurants
                 MessageBox.Show($"Для пункта меню '{menuItem.Name}' действие не задано.", "Информация");
             }
         }
+
 
 
         // Вспомогательный класс для хранения данных о пункте меню
