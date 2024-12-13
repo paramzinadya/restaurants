@@ -226,12 +226,9 @@ namespace restaurants
             if (!string.IsNullOrEmpty(menuItem.DLL))
             {
                 try
-                {
-                    Console.WriteLine($"Попытка загрузить DLL: {menuItem.DLL}");
-
+                {             
                     // Загружаем сборку из файла DLL
                     var assembly = Assembly.LoadFrom(menuItem.DLL);
-                    Console.WriteLine($"DLL {menuItem.DLL} успешно загружена.");
 
                     // Ищем тип с нужной функцией
                     var type = assembly.GetTypes()
@@ -249,8 +246,6 @@ namespace restaurants
 
                     if (methodInfo != null)
                     {
-                        Console.WriteLine($"Метод {menuItem.Key} найден, вызываем.");
-
                         // Проверяем, является ли метод статическим
                         if (methodInfo.IsStatic)
                         {
@@ -259,23 +254,19 @@ namespace restaurants
 
                             // Вызываем статический метод с параметром
                             methodInfo.Invoke(null, parameters);
-                            Console.WriteLine("Метод успешно вызван.");
                         }
                         else
                         {
-                            Console.WriteLine($"Метод {menuItem.Key} не является статическим, не могу вызвать.");
                             MessageBox.Show($"Метод {menuItem.Key} не является статическим в DLL {menuItem.DLL}.", "Ошибка");
                         }
                     }
                     else
                     {
-                        Console.WriteLine($"Метод {menuItem.Key} не найден.");
                         MessageBox.Show($"Метод {menuItem.Key} не найден в DLL {menuItem.DLL}.", "Ошибка");
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Ошибка загрузки DLL: {ex.Message}");
                     MessageBox.Show($"Ошибка загрузки DLL: {ex.Message}", "Ошибка");
                 }
             }

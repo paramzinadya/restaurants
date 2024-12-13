@@ -74,13 +74,18 @@ namespace restaurants
             string login = textBoxLogin.Text;
             string password = textBoxPassword.Text;
 
-            int userId = UserAuthenticator.GetUserId(login, password);
-            if (userId != -1)
+            bool access = UserAuthenticator.Authenticate(login, password);
+            if (access)
             {
-                MainWindow main = new MainWindow(userId);
-                main.Show();
-                this.Hide();
+                int userId = UserAuthenticator.GetUserId(login, password);
+                if (userId != -1)
+                {
+                    MainWindow main = new MainWindow(userId);
+                    main.Show();
+                    this.Hide();
+                }
             }
+           
             else
             {
                 MessageBox.Show("Неверный логин или пароль!");

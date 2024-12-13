@@ -36,6 +36,7 @@ namespace restaurants
 
         public static int GetUserId(string login, string password)
         {
+            Console.WriteLine("visivayu");
             string hashedPassword = HashPassword(password);
 
             try
@@ -83,6 +84,7 @@ namespace restaurants
 
                         // Проверка, что результат не null
                         int count = result != DBNull.Value ? Convert.ToInt32(result) : 0;
+                        Console.WriteLine(count);
 
                         // Если запись найдена (count > 0), значит логин и пароль верны
                         return count > 0;
