@@ -66,6 +66,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\ProductsMenu.dll</HintPath>
     </Reference>
+    <Reference Include="ReceiptMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ReceiptMenu.dll</HintPath>
+    </Reference>
     <Reference Include="RequestMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\RequestMenu.dll</HintPath>
