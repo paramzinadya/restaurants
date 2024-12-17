@@ -236,7 +236,6 @@ namespace restaurants
 
                     if (type == null)
                     {
-                        Console.WriteLine($"Тип с методом {menuItem.Key} не найден в DLL.");
                         MessageBox.Show($"Тип с методом {menuItem.Key} не найден в DLL {menuItem.DLL}.", "Ошибка");
                         return;
                     }
