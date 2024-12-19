@@ -82,6 +82,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\RestaurantsMenu.dll</HintPath>
     </Reference>
+    <Reference Include="RevenueMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RevenueMenu.dll</HintPath>
+    </Reference>
     <Reference Include="StocksMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\StocksMenu.dll</HintPath>
