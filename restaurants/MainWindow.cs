@@ -16,6 +16,7 @@ namespace restaurants
         public MainWindow(int userId)
         {
             InitializeComponent();
+            this.Text = "Главное меню";
             InitializeMenuStrip();
             InitializeTabControl();  // Инициализация TabControl
             _userId = userId;

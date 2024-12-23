@@ -13,6 +13,7 @@ namespace restaurants
         public Form1()
         {
             InitializeComponent();
+            this.Text = "Авторизация";
 
             textBoxLogin.Text = "Введите логин";
             textBoxLogin.ForeColor = Color.Gray;
@@ -66,8 +67,6 @@ namespace restaurants
                 textBoxPassword.ForeColor = Color.Gray;
             }
         }
-
-
 
         private void button1_Click(object sender, EventArgs e)
         {
