@@ -90,5 +90,12 @@ namespace restaurants
                 MessageBox.Show("Неверный логин или пароль!");
             }
         }
+
+        private void registration_Click(object sender, EventArgs e)
+        {
+            Registration r = new Registration();
+            r.Show();
+            this.Hide();
+        }
     }
 }

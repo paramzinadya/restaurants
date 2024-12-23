@@ -32,6 +32,7 @@
             this.textBoxLogin = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.registration = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -72,11 +73,22 @@
             this.textBoxPassword.Size = new System.Drawing.Size(320, 26);
             this.textBoxPassword.TabIndex = 3;
             // 
+            // registration
+            // 
+            this.registration.Location = new System.Drawing.Point(284, 336);
+            this.registration.Name = "registration";
+            this.registration.Size = new System.Drawing.Size(222, 40);
+            this.registration.TabIndex = 4;
+            this.registration.Text = "Зарегистрироваться";
+            this.registration.UseVisualStyleBackColor = true;
+            this.registration.Click += new System.EventHandler(this.registration_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.registration);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxLogin);
@@ -94,6 +106,7 @@
         private System.Windows.Forms.TextBox textBoxLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxPassword;
+        private System.Windows.Forms.Button registration;
     }
 }
 

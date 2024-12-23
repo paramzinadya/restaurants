@@ -20,3 +20,4 @@ C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\EntityFramework.Sq
 C:\Users\parra\source\repos\restaurants\restaurants\bin\Debug\System.Data.SQLite.xml
 C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.csproj.CopyComplete
 C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.MainWindow.resources
+C:\Users\parra\source\repos\restaurants\restaurants\obj\Debug\restaurants.Registration.resources
