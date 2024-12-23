@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net6.0-windows\AccessMenu.deps.json
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net6.0-windows\AccessMenu.runtimeconfig.json
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net6.0-windows\AccessMenu.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net6.0-windows\AccessMenu.pdb
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\refint\AccessMenu.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.pdb
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\AccessMenu.genruntimeconfig.cache
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net6.0-windows\ref\AccessMenu.dll

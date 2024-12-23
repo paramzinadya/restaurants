@@ -1,0 +1,15 @@
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net472\BankMenu.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net472\BankMenu.pdb
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net472\BankMenu.pdb

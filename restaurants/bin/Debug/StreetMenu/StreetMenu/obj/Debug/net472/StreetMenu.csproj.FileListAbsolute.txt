@@ -1,0 +1,15 @@
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net472\StreetMenu.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net472\StreetMenu.pdb
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net472\StreetMenu.pdb

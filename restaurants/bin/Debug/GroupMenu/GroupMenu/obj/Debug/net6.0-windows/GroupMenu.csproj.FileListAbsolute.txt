@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\bin\Debug\net6.0-windows\GroupMenu.deps.json
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\bin\Debug\net6.0-windows\GroupMenu.dll
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\bin\Debug\net6.0-windows\GroupMenu.pdb
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.dll
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\refint\GroupMenu.dll
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.pdb
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\ref\GroupMenu.dll
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\bin\Debug\net6.0-windows\GroupMenu.runtimeconfig.json
+C:\Users\parra\source\repos\GroupMenu\GroupMenu\obj\Debug\net6.0-windows\GroupMenu.genruntimeconfig.cache

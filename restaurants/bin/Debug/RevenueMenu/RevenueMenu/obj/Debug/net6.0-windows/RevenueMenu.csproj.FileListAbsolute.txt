@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net6.0-windows\RevenueMenu.deps.json
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net6.0-windows\RevenueMenu.runtimeconfig.json
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net6.0-windows\RevenueMenu.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net6.0-windows\RevenueMenu.pdb
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\refint\RevenueMenu.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.pdb
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\RevenueMenu.genruntimeconfig.cache
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net6.0-windows\ref\RevenueMenu.dll

@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\bin\Debug\net6.0-windows\UnitsMenu.deps.json
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\bin\Debug\net6.0-windows\UnitsMenu.dll
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\bin\Debug\net6.0-windows\UnitsMenu.pdb
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.dll
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\refint\UnitsMenu.dll
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.pdb
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\ref\UnitsMenu.dll
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\bin\Debug\net6.0-windows\UnitsMenu.runtimeconfig.json
+C:\Users\parra\source\repos\UnitsMenu\UnitsMenu\obj\Debug\net6.0-windows\UnitsMenu.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net6.0-windows\AssortmentMenu.deps.json
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net6.0-windows\AssortmentMenu.runtimeconfig.json
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net6.0-windows\AssortmentMenu.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net6.0-windows\AssortmentMenu.pdb
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\refint\AssortmentMenu.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.pdb
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\AssortmentMenu.genruntimeconfig.cache
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net6.0-windows\ref\AssortmentMenu.dll

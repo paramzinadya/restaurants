@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\bin\Debug\net6.0-windows\RequestMenu.deps.json
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\bin\Debug\net6.0-windows\RequestMenu.runtimeconfig.json
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\bin\Debug\net6.0-windows\RequestMenu.dll
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\bin\Debug\net6.0-windows\RequestMenu.pdb
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.dll
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\refint\RequestMenu.dll
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.pdb
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\RequestMenu.genruntimeconfig.cache
+C:\Users\parra\source\repos\RequestMenu\RequestMenu\obj\Debug\net6.0-windows\ref\RequestMenu.dll

@@ -1,0 +1,15 @@
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\bin\Debug\net472\ProductsMenu.dll
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\bin\Debug\net472\ProductsMenu.pdb
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.dll
+C:\Users\parra\source\repos\ProductsMenu\ProductsMenu\obj\Debug\net472\ProductsMenu.pdb

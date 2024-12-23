@@ -1,0 +1,17 @@
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net472\ReceiptMenu.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net472\ReceiptMenu.pdb
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.pdb
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net472\ReceiptMenu.csproj.ResolveComReference.cache

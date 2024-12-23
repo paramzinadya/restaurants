@@ -1,0 +1,15 @@
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\bin\Debug\net472\RestaurantsMenu.dll
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\bin\Debug\net472\RestaurantsMenu.pdb
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.dll
+C:\Users\parra\source\repos\RestaurantsMenu\RestaurantsMenu\obj\Debug\net472\RestaurantsMenu.pdb

@@ -1,0 +1,15 @@
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net472\AssortmentMenu.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net472\AssortmentMenu.pdb
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.dll
+C:\Users\parra\source\repos\AssortmentMenu\AssortmentMenu\obj\Debug\net472\AssortmentMenu.pdb

@@ -1,0 +1,15 @@
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\bin\Debug\net472\StocksMenu.dll
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\bin\Debug\net472\StocksMenu.pdb
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.dll
+C:\Users\parra\source\repos\StocksMenu\StocksMenu\obj\Debug\net472\StocksMenu.pdb

@@ -1,0 +1,9 @@
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\obj\Debug\net472\HelpMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\obj\Debug\net472\HelpMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\obj\Debug\net472\HelpMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\obj\Debug\net472\HelpMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\obj\Debug\net472\HelpMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\bin\Debug\net472\HelpMenu.dll
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\bin\Debug\net472\HelpMenu.pdb
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\obj\Debug\net472\HelpMenu.dll
+C:\Users\parra\source\repos\HelpMenu\HelpMenu\obj\Debug\net472\HelpMenu.pdb

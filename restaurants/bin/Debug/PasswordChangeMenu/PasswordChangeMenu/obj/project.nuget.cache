@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HPB9JTsfjRL3l7GEoFNmmxKLiULTWyPu0dnondi37lTj5hpmuZEOVvJJga8KfOukFkS36F+1XoBZFvped7aw/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\parra\\source\\repos\\PasswordChangeMenu\\PasswordChangeMenu\\PasswordChangeMenu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\parra\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\parra\\.nuget\\packages\\stub.system.data.sqlite.core.netframework\\1.0.119\\stub.system.data.sqlite.core.netframework.1.0.119.nupkg.sha512",
+    "C:\\Users\\parra\\.nuget\\packages\\system.data.sqlite\\1.0.119\\system.data.sqlite.1.0.119.nupkg.sha512",
+    "C:\\Users\\parra\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512",
+    "C:\\Users\\parra\\.nuget\\packages\\system.data.sqlite.ef6\\1.0.119\\system.data.sqlite.ef6.1.0.119.nupkg.sha512",
+    "C:\\Users\\parra\\.nuget\\packages\\system.data.sqlite.linq\\1.0.119\\system.data.sqlite.linq.1.0.119.nupkg.sha512"
+  ],
+  "logs": []
+}

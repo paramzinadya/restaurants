@@ -1,0 +1,15 @@
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net472\AccessMenu.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net472\AccessMenu.pdb
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.dll
+C:\Users\parra\source\repos\AccessMenu\AccessMenu\obj\Debug\net472\AccessMenu.pdb

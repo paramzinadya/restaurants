@@ -1,0 +1,17 @@
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net472\RevenueMenu.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net472\RevenueMenu.pdb
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net472\EntityFramework.SqlServer.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net472\EntityFramework.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net472\System.Data.SQLite.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net472\System.Data.SQLite.EF6.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\bin\Debug\net472\System.Data.SQLite.Linq.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.csproj.CopyComplete
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.pdb
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\parra\source\repos\RevenueMenu\RevenueMenu\obj\Debug\net472\RevenueMenu.csproj.ResolveComReference.cache

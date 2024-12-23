@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net6.0-windows\ReceiptMenu.deps.json
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net6.0-windows\ReceiptMenu.runtimeconfig.json
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net6.0-windows\ReceiptMenu.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\bin\Debug\net6.0-windows\ReceiptMenu.pdb
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\refint\ReceiptMenu.dll
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.pdb
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ReceiptMenu.genruntimeconfig.cache
+C:\Users\parra\source\repos\ReceiptMenu\ReceiptMenu\obj\Debug\net6.0-windows\ref\ReceiptMenu.dll

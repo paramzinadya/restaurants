@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net6.0-windows\StreetMenu.deps.json
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net6.0-windows\StreetMenu.runtimeconfig.json
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net6.0-windows\StreetMenu.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\bin\Debug\net6.0-windows\StreetMenu.pdb
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\refint\StreetMenu.dll
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.pdb
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\StreetMenu.genruntimeconfig.cache
+C:\Users\parra\source\repos\StreetMenu\StreetMenu\obj\Debug\net6.0-windows\ref\StreetMenu.dll

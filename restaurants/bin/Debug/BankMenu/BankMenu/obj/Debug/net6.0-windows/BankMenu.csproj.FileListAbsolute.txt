@@ -1,0 +1,14 @@
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net6.0-windows\BankMenu.deps.json
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net6.0-windows\BankMenu.runtimeconfig.json
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net6.0-windows\BankMenu.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\bin\Debug\net6.0-windows\BankMenu.pdb
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.csproj.AssemblyReference.cache
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.AssemblyInfoInputs.cache
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.AssemblyInfo.cs
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.csproj.CoreCompileInputs.cache
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\refint\BankMenu.dll
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.pdb
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\BankMenu.genruntimeconfig.cache
+C:\Users\parra\source\repos\BankMenu\BankMenu\obj\Debug\net6.0-windows\ref\BankMenu.dll
